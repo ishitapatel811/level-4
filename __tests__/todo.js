@@ -35,7 +35,7 @@ describe("TodoList test suite", () => {
   test("relative all todo that are overdue", () => {
     const overdueCount = overdue().length;
     add({
-        title: "wating the email",
+        title: "writing the email",
         completed: false,
         dueDate: yesterday.toLocaleDateString("en-CA"),
       });
@@ -44,7 +44,7 @@ describe("TodoList test suite", () => {
   test("relative all todo that are duetoday", () => {
     const dueTodayCount = dueToday().length;
     add({
-        title:"wating the submission feedback",
+        title:"writing the submission feedback",
         completed: false,
         dueDate: today.toLocaleDateString("en-CA"),
       });
