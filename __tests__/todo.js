@@ -44,7 +44,7 @@ describe("TodoList test suite", () => {
   test("relative all todo that are duetoday", () => {
     const dueTodayCount = dueToday().length;
     add({
-        title:"writing the submission feedback",
+        title:"writing the submission",
         completed: false,
         dueDate: today.toLocaleDateString("en-CA"),
       });
